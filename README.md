@@ -1,6 +1,7 @@
-
 # testvalley
+
 ### Table of contents
+
 - [System requirements](#system-requirements)
 - [Figma design guidelines for better UI accuracy](#figma-design-guideline-for-better-accuracy)
 - [Check the UI of the entire app](#app-navigations)
@@ -16,9 +17,6 @@ Dart SDK Version 2.18.0 or greater.
 Flutter SDK Version 3.3.0 or greater.
 
 ### Figma design guidelines for better UI accuracy
-
-Read our guidelines to increase the accuracy of design-to-code conversion by optimizing Figma designs.
-https://docs.dhiwise.com/docs/Designguidelines/intro
 
 ### Check the UI of the entire app
 
@@ -38,12 +36,12 @@ After successful build, your application structure should look like this:
     ├── core
     │   ├── app_export.dart         - It contains commonly used file imports
     │   ├── constants               - It contains all constants classes
-    │   ├── errors                  - It contains error handling classes                  
+    │   ├── errors                  - It contains error handling classes
     │   ├── network                 - It contains network-related classes
     │   └── utils                   - It contains common files and utilities of the application
     ├── data
-    │   ├── apiClient               - It contains API calling methods 
-    │   ├── models                  - It contains request/response models 
+    │   ├── apiClient               - It contains API calling methods
+    │   ├── models                  - It contains request/response models
     │   └── repository              - Network repository
     ├── localization                - It contains localization classes
     ├── presentation                - It contains widgets of the screens with their controllers and the models of the whole application.
